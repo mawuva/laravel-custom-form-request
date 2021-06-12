@@ -1,0 +1,54 @@
+{
+    "name": "mawuekom/laravel-custom-form-request",
+    "description": "Custom form request for laravel's projects provides with form data sanitization",
+    "keywords": [
+        "mawuekom",
+        "laravel-custom-form-request"
+    ],
+    "homepage": "https://github.com/mawuekom/laravel-custom-form-request",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ephraïm Seddor",
+            "email": "seddorephraim7@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mawuekom\\LaravelCustomFormRequest\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mawuekom\\LaravelCustomFormRequest\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mawuekom\\LaravelCustomFormRequest\\LaravelCustomFormRequestServiceProvider"
+            ],
+            "aliases": {
+                "LaravelCustomFormRequest": "Mawuekom\\LaravelCustomFormRequest\\LaravelCustomFormRequestFacade"
+            }
+        }
+    }
+}
