@@ -1,13 +1,13 @@
 <?php
 
-namespace Mawuekom\LaravelCustomFormRequest;
+namespace Mawuekom\CustomFormRequest;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Mawuekom\LaravelCustomFormRequest\Skeleton\SkeletonClass
+ * @see \Mawuekom\CustomFormRequest\Skeleton\SkeletonClass
  */
-class LaravelCustomFormRequestFacade extends Facade
+class CustomFormRequestFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class LaravelCustomFormRequestFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-custom-form-request';
+        return 'custom-form-request';
     }
 }

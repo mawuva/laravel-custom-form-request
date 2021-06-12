@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Mawuekom\\LaravelCustomFormRequest\\": "src"
+            "Mawuekom\\CustomFormRequest\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Mawuekom\\LaravelCustomFormRequest\\Tests\\": "tests"
+            "Mawuekom\\CustomFormRequest\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,11 +44,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mawuekom\\LaravelCustomFormRequest\\LaravelCustomFormRequestServiceProvider"
+                "Mawuekom\\CustomFormRequest\\CustomFormRequestServiceProvider"
             ],
             "aliases": {
-                "LaravelCustomFormRequest": "Mawuekom\\LaravelCustomFormRequest\\LaravelCustomFormRequestFacade"
+                "CustomFormRequest": "Mawuekom\\CustomFormRequest\\CustomFormRequestFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
