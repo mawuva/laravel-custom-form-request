@@ -17,7 +17,10 @@
     ],
     "require": {
         "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0"
+        "illuminate/support": "^8.0",
+        "mawuekom/laravel-form-request": "dev-main",
+        "mawuekom/laravel-api-form-request": "dev-main",
+        "mawuekom/laravel-request-sanitizer": "dev-main"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
