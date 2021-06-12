@@ -1,6 +1,6 @@
 {
     "name": "mawuekom/laravel-custom-form-request",
-    "description": "Custom form request for laravel's projects provides with form data sanitization",
+    "description": "Custom form request for laravel's projects provides with form data sanitization and api form request extension",
     "keywords": [
         "mawuekom", "form-request",
         "laravel-api-form-request", "api-form-request",

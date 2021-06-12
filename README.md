@@ -1,6 +1,6 @@
 # Custom Form Request
 
-Custom form request for laravel's projects provides with form data sanitization
+Custom form request for laravel's projects provides with form data sanitization and api form request extension
 
 ## Installation
 
