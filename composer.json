@@ -2,8 +2,14 @@
     "name": "mawuekom/laravel-custom-form-request",
     "description": "Custom form request for laravel's projects provides with form data sanitization",
     "keywords": [
-        "mawuekom",
-        "laravel-custom-form-request"
+        "mawuekom", "form-request",
+        "laravel-api-form-request", "api-form-request",
+        "laravel-custom-form-request", 
+        "laravel-request-sanitizer", 
+        "request",
+        "sanitizer",
+        "validation",
+        "form"
     ],
     "homepage": "https://github.com/mawuekom/laravel-custom-form-request",
     "license": "MIT",
